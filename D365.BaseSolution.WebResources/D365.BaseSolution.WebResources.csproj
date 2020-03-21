@@ -64,7 +64,7 @@
     <Content Include="JScript\Common\notification.js" />
     <Content Include="JScript\Common\richtexttool.js" />
     <Content Include="JScript\Common\webapi.js" />
-    <Content Include="JScript\Contact\Contact.js" />
+    <Content Include="JScript\Entities\Contact\Contact.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="JScript\Common\jquery-1.10.2.min.map" />
