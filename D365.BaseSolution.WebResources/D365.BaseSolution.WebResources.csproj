@@ -46,10 +46,28 @@
   <ItemGroup>
     <Folder Include="Html\" />
     <Folder Include="Images\" />
-    <Folder Include="JScript\Common\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="JScript\Common\bootstrap.js" />
+    <Content Include="JScript\Common\bootstrap.min.js" />
+    <Content Include="JScript\Common\ctm_global.js" />
+    <Content Include="JScript\Common\helper.js" />
+    <Content Include="JScript\Common\jquery-1.10.2.intellisense.js" />
+    <Content Include="JScript\Common\jquery-1.10.2.js" />
+    <Content Include="JScript\Common\jquery-1.10.2.min.js" />
+    <Content Include="JScript\Common\jquery.mask.js" />
+    <Content Include="JScript\Common\jquery.validate-vsdoc.js" />
+    <Content Include="JScript\Common\jquery.validate.js" />
+    <Content Include="JScript\Common\jquery.validate.min.js" />
+    <Content Include="JScript\Common\jquery.validate.unobtrusive.js" />
+    <Content Include="JScript\Common\jquery.validate.unobtrusive.min.js" />
+    <Content Include="JScript\Common\notification.js" />
+    <Content Include="JScript\Common\richtexttool.js" />
+    <Content Include="JScript\Common\webapi.js" />
     <Content Include="JScript\Contact\Contact.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="JScript\Common\jquery-1.10.2.min.map" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
