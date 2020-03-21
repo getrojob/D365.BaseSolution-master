@@ -8,6 +8,7 @@ using System.Xml;
 using System.Text;
 using System.IO;
 using Microsoft.Xrm.Sdk.Messages;
+using D365.BaseSolution.Connect365;
 
 
 namespace D365.BaseSolution.Repository
@@ -23,8 +24,8 @@ namespace D365.BaseSolution.Repository
 
         public RepositoryBase()
         {
-            var connector = new Connect365();
-            this.service = connector.Service;
+            var connector = new Connect365Base();
+            this.service = connector.service;
         }
 
         public Guid Create(Entity entity)
