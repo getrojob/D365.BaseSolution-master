@@ -13,8 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365.BaseSolution.Tests", "
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "D365.BaseSolution.Base.Shared", "D365.BaseSolution.Base\D365.BaseSolution.Base.Shared.shproj", "{4D42E8E4-1135-460F-9FE9-C457D80EBB92}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365.BaseSolution.Repository", "D365.BaseSolution.Repository\D365.BaseSolution.Repository.csproj", "{0A0D9A5E-3680-4DC7-9C55-88D09E02FCC6}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		D365.BaseSolution.Base\D365.BaseSolution.Base.projitems*{0a0d9a5e-3680-4dc7-9c55-88d09e02fcc6}*SharedItemsImports = 4
 		D365.BaseSolution.Base\D365.BaseSolution.Base.projitems*{251e6fd8-b56a-4ba5-b48f-8680a5040272}*SharedItemsImports = 4
 		D365.BaseSolution.Base\D365.BaseSolution.Base.projitems*{4d42e8e4-1135-460f-9fe9-c457d80ebb92}*SharedItemsImports = 13
 		D365.BaseSolution.Base\D365.BaseSolution.Base.projitems*{8ff7658a-3944-4dc9-9e6d-9b9c08ef3824}*SharedItemsImports = 4
@@ -40,6 +43,10 @@ Global
 		{22A5E9AD-5A21-4791-9F61-1CD025ED6427}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22A5E9AD-5A21-4791-9F61-1CD025ED6427}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22A5E9AD-5A21-4791-9F61-1CD025ED6427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A0D9A5E-3680-4DC7-9C55-88D09E02FCC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A0D9A5E-3680-4DC7-9C55-88D09E02FCC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A0D9A5E-3680-4DC7-9C55-88D09E02FCC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A0D9A5E-3680-4DC7-9C55-88D09E02FCC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

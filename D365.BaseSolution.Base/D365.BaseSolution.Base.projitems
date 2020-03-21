@@ -13,6 +13,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Common\Entities.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\OptionSets.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Plugins\BaseClass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Repository\RepositoryBase.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Workflows\BaseClass.cs" />
   </ItemGroup>
 </Project>
